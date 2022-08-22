@@ -847,24 +847,39 @@ color:var(--title-color-too);
 
 .input-wrap{
     position: relative;
+    margin-top: 4px;
 }
 
-.name-icon .tell-icon .mail-icon{
+.name-icon{
     position: absolute;
     left: 15px;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.input-form:focus + .name-icon .tell-icon .mail-icon{
+.input-form:focus + .name-icon{
     fill: #2196F3;
 }
 
-.modal-checkbox{
+
+
+/* .modal-checkbox{
     margin-top: 20px;
     -webkit-appearance: none; 
     -moz-appearance: none;
     appearance: none;
+} */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
 .check-icon{
