@@ -848,6 +848,7 @@ color:var(--title-color-too);
 .input-wrap{
     position: relative;
 }
+
 .name-icon .tell-icon .mail-icon{
     position: absolute;
     left: 15px;
@@ -855,15 +856,17 @@ color:var(--title-color-too);
     transform: translateY(-50%);
 }
 
-.input-form:focus + .name-icon{
+.input-form:focus + .name-icon .tell-icon .mail-icon{
     fill: #2196F3;
 }
+
 .modal-checkbox{
     margin-top: 20px;
     -webkit-appearance: none; 
     -moz-appearance: none;
     appearance: none;
 }
+
 .check-icon{
     display: inline-block;
     width: 15px;
