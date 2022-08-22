@@ -872,14 +872,14 @@ color:var(--title-color-too);
     transition: fill 250ms var(--animation-cub);     
 }
 
-/* .modal-checkbox{
+.modal-checkbox{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
-} */
+}
 
-/* .visually-hidden {
+.visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -890,15 +890,15 @@ color:var(--title-color-too);
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-} */
+}
 
-/* .check-icon{
+.check-icon{
     display: inline-block;
     width: 15px;
     height: 15px;
-} */
+}
 
-/* .checkbox-text{
+.checkbox-text{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -910,7 +910,7 @@ color:var(--title-color-too);
     letter-spacing: 0.03em;
     text-decoration:underline;
     color:var(--header-linke-color)
-} */
+}
 
 .modal-btn{
     display:inline-block;
@@ -938,61 +938,3 @@ color:var(--title-color-too);
     .modal-btn:hover {
         transform: scale(1.03);
     }
-
-
-
-
-    .user-policy-field {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 30px;
-      }
-      
-      .user-policy:checked + .user-policy-text > .user-check {
-        background-color: var(--btn-color);
-        fill: var(--btn-gallery-color);
-        border: none;
-      }
-      
-      .user-policy-text {
-        display: flex;
-        align-items: center;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        cursor: pointer;
-        color: var(--second-color);
-      }
-      
-      .user-policy-text > .user-check {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 8px;
-        width: 16px;
-        height: 15px;
-        border: 2px solid var(--main-color);
-        border-radius: 3px;
-        transition: background-color 250ms var(--cubic);
-      }
-      
-      .user-policy-link {
-        position: relative;
-        margin-left: 5px;
-        color: var(--btn-color);
-      }
-      
-      .policy-underline {
-        display: inline-block;
-      }
-      
-      .policy-underline::after {
-        position: absolute;
-        content: "";
-        width: 100%;
-        height: 1px;
-        left: 0;
-        bottom: 5px;
-        background-color: var(--btn-color);
-      }
