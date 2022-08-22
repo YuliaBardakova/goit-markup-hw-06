@@ -813,6 +813,10 @@ color:var(--title-color-too);
     padding-left: 42px;
 }
 
+.input-form:focus{
+    outline-color: #2196F3;
+}
+
 .input-title{
     display: block;
     margin-bottom: 4px;
@@ -841,11 +845,31 @@ color:var(--title-color-too);
 
     color: rgba(117, 117, 117, 0.5);
 }
+
+.input-wrap{
+    position: relative;
+}
+.name-icon{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-form:focus + .name-icon{
+    fill: #2196F3;
+}
 .modal-checkbox{
     margin-top: 20px;
     -webkit-appearance: none; 
     -moz-appearance: none;
     appearance: none;
+}
+.check-icon{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+
 }
 .checkbox-text{
     font-weight: 400;
