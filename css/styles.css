@@ -804,7 +804,6 @@ color:var(--title-color-too);
 
 .input-form{
     box-sizing: border-box;
-    margin-bottom: 10px;
     font-size: 12px;
     width: 448px;
     height: 40px;
@@ -849,7 +848,7 @@ color:var(--title-color-too);
 .input-wrap{
     position: relative;
 }
-.name-icon{
+.name-icon .tell-icon .mail-icon{
     position: absolute;
     left: 15px;
     top: 50%;
