@@ -843,6 +843,9 @@ color:var(--title-color-too);
 }
 .modal-checkbox{
     margin-top: 20px;
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
 }
 .checkbox-text{
     font-weight: 400;
@@ -884,4 +887,3 @@ color:var(--title-color-too);
     .modal-btn:hover {
         transform: scale(1.03);
     }
-    
