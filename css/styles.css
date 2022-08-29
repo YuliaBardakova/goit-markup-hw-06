@@ -965,7 +965,10 @@ color: var(--title-color);
                         /* -----------------------checkbox--------------- */
 
 .checkbox-text{
+    font-weight: 400;
     font-size: 14px;
+    letter-spacing: 0.03em;
+    margin-bottom: 30px;
     color: #757575;
     display:flex;
 }
@@ -992,14 +995,20 @@ color: var(--title-color);
     border: none;
 }
 .input-check:focus + .checkbox-text span {
-    border-color: var(--header-linke-color);
+    border-color: #212121;
 }
 
 .input-check:checked + .checkbox-text .check-icon {
-    fill: #fff;
+    fill: var(--header-linke-color);
 }
 
-
+.checkbox-polis{
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    margin-left: 3px;
+    text-decoration:underline;
+    color:var(--header-linke-color);
+}
 
 
 
