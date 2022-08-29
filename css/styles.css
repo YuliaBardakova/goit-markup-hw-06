@@ -542,7 +542,7 @@ color: var(--title-color);
     color:var(--header-linke-color);
 }
 
-.footer-soc-title,{
+.footer-soc-title {
     margin-top: 15px;
     margin-bottom: 20px;
     font-weight: 700;
@@ -645,14 +645,15 @@ color: var(--title-color);
     transition: box-shadow 250ms var(--animation-cub);
 }
                     
-.subscribe-button:hover,
-.subscribe-button:focus {
+.footer-form-button:hover,
+.footer-form-button:focus {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     cursor: pointer;
 }
 
-.subscribe-icon {
+.footer-form-icon {
     margin-left: 10px;
+    fill: #fff;
 }
 
                /* ------------Portfolio------------ */
