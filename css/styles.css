@@ -542,7 +542,8 @@ color: var(--title-color);
     color:var(--header-linke-color);
 }
 
-.footer-soc-title {
+.footer-soc-title,
+.footer-title {
     margin-top: 15px;
     margin-bottom: 20px;
     font-weight: 700;
