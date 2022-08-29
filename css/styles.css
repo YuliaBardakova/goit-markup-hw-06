@@ -880,52 +880,7 @@ color: var(--title-color);
 }
 /* -----------------------------------------polish */
 
-.check-text {
-    font-size: 14px;
-    color: #757575;
-    letter-spacing: 0.03em;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
-.check-text span {
-    width: 16px;
-    height: 15px;
-    border: 2px solid #212121;
-    border-radius: 3px;
-    margin-right: 7px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.icon-check {
-    fill: transparent;
-}
-
-.input-check:checked + .check-text span {
-    background-color: var(--accent-color);
-    border: none;
-}
-
-.input-check:focus + .check-text span {
-    border-color: var(--accent-color);
-}
-
-.check-text:hover {
-    cursor: pointer;
-}
-
-.input-check:checked + .check-text .icon-check {
-    fill: #fff;
-}
-
-.policy-link {
-    color: var(--accent-color);
-    padding-left: 5px;
-}
-/* .modal-checkbox{
+.modal-checkbox{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -963,7 +918,7 @@ color: var(--title-color);
     letter-spacing: 0.03em;
     text-decoration:underline;
     color:var(--header-linke-color)
-} */
+}
 
 .modal-btn{
     display:inline-block;
