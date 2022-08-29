@@ -986,16 +986,16 @@ color: var(--title-color);
     transition: fill 250ms linear;
 }
 
-.input-check:checked + .label-checkbox span {
+.input-check:checked + .checkbox-text span {
     background-color: var(--header-linke-color);
     border-color: var(--header-linke-color);
     border: none;
 }
-.input-check:focus + .label-checkbox span {
+.input-check:focus + .checkbox-text span {
     border-color: var(--header-linke-color);
 }
 
-.input-check:checked + .label-checkbox .check-icon {
+.input-check:checked + .checkbox-text .check-icon {
     fill: #fff;
 }
 
