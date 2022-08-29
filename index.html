@@ -320,8 +320,24 @@
         </li>
     </ul>
     </div>
-    <form class="footer-sub">
-        <h2 class="footer-title">Підпишіться на розсилку</h2>
+    <form class="footer-subscribe">
+        <h3 class="subscribe-title">Підпишіться на розсилку</h3>
+        <div class="subscribe-wrap">
+        <input
+            type="text"
+            class="footer-input"
+            name="footer-sub"
+            placeholder="E-mail"/>
+        <button type="submit" class="subscribe-button">
+            Підписатися
+            <svg class="subscribe-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+        </button>
+        </div>
+    </form>
+    <!-- <form class="footer-sub">
+        <h2 class="footer-title-form">Підпишіться на розсилку</h2>
         <div class="footer-sub-wrap">
             <input
             type="text"
@@ -334,7 +350,7 @@
             </svg>
             </button>
         </div>
-    </form>
+    </form> -->
 </div>
 </footer>
 <div class="backdrop is-hidden" data-modal>
