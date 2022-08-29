@@ -966,8 +966,35 @@ color: var(--title-color);
     clip-path: inset(50%);
     margin: -1px;
 }
+.label-checkbox {
+    font-size: 14px;
+    color: #757575;
+    display: block;
+}
 
-.check-icon{
+.label-checkbox::before{
+    content:"";
+    width: 16px;
+    height: 15px;
+    border: 2px solid #212121;
+    border-radius: 3px;
+    margin-right: 5px;
+    align-items: center;
+
+}
+
+
+
+
+
+
+.checkbox-polis{
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-decoration:underline;
+    color:var(--header-linke-color);
+}
+/* .check-icon{
     display: inline-block;
     width: 15px;
     height: 15px;
@@ -985,7 +1012,7 @@ color: var(--title-color);
     letter-spacing: 0.03em;
     text-decoration:underline;
     color:var(--header-linke-color);
-}
+} */
 
 .modal-btn{
     display:inline-block;
