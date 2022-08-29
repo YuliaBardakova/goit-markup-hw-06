@@ -947,6 +947,9 @@ color: var(--title-color);
     fill:var(--header-linke-color);
 }
 
+.error{
+
+}
 /* .modal-checkbox{
     display: flex;
     align-items: center;
@@ -1010,12 +1013,7 @@ color: var(--title-color);
     letter-spacing: 0.03em;
     color:var(--hero-text)
 }
-.checkbox-polis{
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    text-decoration:underline;
-    color:var(--header-linke-color);
-} */
+*/
 
 .modal-btn{
     display:inline-block;
