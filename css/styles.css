@@ -542,8 +542,7 @@ color: var(--title-color);
     color:var(--header-linke-color);
 }
 
-.footer-soc-title,
-.footer-title-form {
+.footer-soc-title,{
     margin-top: 15px;
     margin-bottom: 20px;
     font-weight: 700;
@@ -552,7 +551,7 @@ color: var(--title-color);
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-color:var(--title-color-too);
+    color:var(--title-color-too);
 }
 
 .footer-soc-list {
@@ -580,11 +579,11 @@ color:var(--title-color-too);
 }
                        /* ---------------foot-form------------ */
 
-.footer-subscribe {
+.footer-form {
     margin-left: 93px;
 }
 
-.subscribe-title {
+.footer-title-form {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -594,7 +593,7 @@ color:var(--title-color-too);
     margin-bottom: 20px;
 }
 
-.subscribe-wrap {
+.footer-form-wrap {
     display: flex;
 }
 
@@ -624,7 +623,7 @@ color:var(--title-color-too);
     color: rgba(255, 255, 255, 0.6);
 }
 
-.subscribe-button {
+.footer-form-button {
     width: 200px;
     height: 50px;
     padding: 10px 28px;
