@@ -621,7 +621,8 @@ color:var(--title-color-too);
     transition: transform 250ms var(--cubic), box-shadow 250ms var(--cubic);
 }
 
-.btn-sub:hover {
+.btn-sub:hover,
+.btn-sub:focus {
     transform: scale(1.02);
 }
 
