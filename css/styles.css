@@ -993,6 +993,9 @@ color: var(--title-color);
     transition: background-color: 250ms linear, border-color:250ms linear;
 }
 
+.modal-checkbox{
+    
+}
 .check-icon{
     fill: #fff;
     transition: fill 250ms linear;
