@@ -502,7 +502,6 @@ color: var(--title-color);
 .footer-container{
     display: flex;
     align-items: baseline;
-    gap: 70px;
 }
 
 .footer-logo{
@@ -516,6 +515,11 @@ color: var(--title-color);
     letter-spacing: 0.03em;
 
     color:var(--title-color-too);
+}
+
+.footer-box{
+    margin-right: 70px;
+    flex-grow: 1px;
 }
 
 .address-list{
